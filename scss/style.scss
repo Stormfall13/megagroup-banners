@@ -393,6 +393,9 @@ body{
             width: 100%; 
         } 
     }
+    .overlay__gr-four{
+        left: 415px; 
+    }
 }
 @media (max-width: 1366px) {
     .img__overlay-laptop{
@@ -414,5 +417,8 @@ body{
             object-fit: contain;
             width: 100%; 
         } 
+    }
+    .overlay__gr-four{
+        left: 372px; 
     }
 }
