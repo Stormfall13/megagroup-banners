@@ -11,146 +11,437 @@
 <title>Page Megagroup</title>
 </head>
 <body>
-
-<div class="title__wrapp">
-    <p class="title">Добавление в STAFF (принятие на работу)</p>
-    <p class="title__descriptor">Инструкция для руководителя отдела</p>
+<div class="swipe__menu">
+    <div class="swipe__wrapper swipe__add">Добавление в STAFF <span class="bounce add"></span></div>
+    <div class="swipe__wrapper swipe__lim">Ограничение доступа к STAFF <span class="bounce lim"></span></div>
+    <div class="swipe__wrapper swipe__del">Удаление из STAFF <span class="bounce del"></span></div>
+    <div class="swipe__wrapper swipe__next">Перевод сотрудника в другой отдел <span class="bounce next"></span></div>
 </div>
-<div class="content__wrapp">
-    <div class="img__overlay">
-        <img src="img/Vector.svg" alt="">
+<div class="recruit__wrapp add__wrapp">
+    <div class="title__wrapp">
+        <p class="title">Добавление в STAFF (принятие на работу)</p>
+        <p class="title__descriptor">Инструкция для руководителя отдела</p>
     </div>
-    <div class="img__overlay-laptop">
-        <img src="img/Vector2.svg" alt=""> 
-    </div>
-    <div class="wrapper">
-        <div class="wrapp__img">
-            <img src="img/Group1.png" alt="">
+    <div class="content__wrapp">
+        <div class="img__overlay">
+            <img src="img/Vector.svg" alt="">
         </div>
-        <div class="wrapp__content">
-            <p class="content__title">В рамках ФОТ</p>
-            <p class="content__text">
-                Первым шагом необходимо получить согласование на найм и 
-                количество новых сотрудников с учетом доступного ФОТ 
-                (фонда оплаты труда) у руководителя департамента. Затем 
-                руководитель департамента оставляет заявку на новых 
-                сотрудников на странице “Заявки на новых сотрудников” в 
-                STAFF, указывая цель найма и фирму-филиал. Эта заявка будет 
-                рассмотрена заместителем Генерального директора Хегай А. К. 
-                в течение трех дней.  
-            </p>
-            <p class="content__title">Не в рамках фот</p>
-            <p class="content__text">
-                Если требуется нанять нового сотрудника, который не 
-                входит в доступный ФОТ (фонда оплаты труда), 
-                необходимо сообщить об этом руководителю департамента. 
-                Затем руководитель департамента должен согласовать 
-                расширение ФОТ с Генеральным директором, что может 
-                занять до двух недель. После получения согласования 
-                руководитель департамента оставляет заявку на новых 
-                сотрудников на странице “Заявки на новых сотрудников” 
-                в STAFF, указывая цель найма и фирму-филиал. Эта заявка 
-                будет рассмотрена заместителем Генерального директора 
-                Хегаем А. К. в течение трех дней.
-            </p>
-            <div class="wrapp__link-hr">
-                <a href="#" class="link__staff">Заявка в STAFF</a>
-                <div class="hr">
-                    <img src="img/staff.png" alt="">
-                </div>
-            </div> 
+        <div class="img__overlay-laptop">
+            <img src="img/Vector2.svg" alt=""> 
         </div>
-    </div>
-    <div class="wrapper">
-        <div class="wrapp__img">
-            <img src="img/Group2.png" alt="">
+        <div class="wrapper">
+            <div class="wrapp__img">
+                <img src="img/Group1.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title">В рамках ФОТ</p>
+                <p class="content__text">
+                    Первым шагом необходимо получить согласование на найм и 
+                    количество новых сотрудников с учетом доступного ФОТ 
+                    (фонда оплаты труда) у руководителя департамента. Затем 
+                    руководитель департамента оставляет заявку на новых 
+                    сотрудников на странице “Заявки на новых сотрудников” в 
+                    STAFF, указывая цель найма и фирму-филиал. Эта заявка будет 
+                    рассмотрена заместителем Генерального директора Хегай А. К. 
+                    в течение трех дней.  
+                </p>
+                <p class="content__title">Не в рамках фот</p>
+                <p class="content__text">
+                    Если требуется нанять нового сотрудника, который не 
+                    входит в доступный ФОТ (фонда оплаты труда), 
+                    необходимо сообщить об этом руководителю департамента. 
+                    Затем руководитель департамента должен согласовать 
+                    расширение ФОТ с Генеральным директором, что может 
+                    занять до двух недель. После получения согласования 
+                    руководитель департамента оставляет заявку на новых 
+                    сотрудников на странице “Заявки на новых сотрудников” 
+                    в STAFF, указывая цель найма и фирму-филиал. Эта заявка 
+                    будет рассмотрена заместителем Генерального директора 
+                    Хегаем А. К. в течение трех дней.
+                </p>
+                <div class="wrapp__link-hr">
+                    <a href="#" class="link__staff">Заявка в STAFF</a>
+                    <div class="hr">
+                        <img src="img/staff.png" alt="">
+                    </div>
+                </div> 
+            </div>
         </div>
-        <div class="wrapp__content">
-            <p class="content__title hr__title">HR</p>
-            <p class="content__text">
-                После утверждения заявки на нового сотрудника, 
-                необходимо отправить запрос помощнику HR с детальным 
-                описанием требований к кандидату, включая должность, 
-                необходимые квалификации, предполагаемую заработную плату и 
-                возможность удаленной работы. Если в филиале отсутствует 
-                HR-специалист, то руководитель отдела на себя берет 
-                функции по подбору кандидатов. <br /><br />
-                Поиск подходящих кандидатов может занять от 2х до 4х недель.
-            </p>
+        <div class="wrapper">
+            <div class="wrapp__img">
+                <img src="img/Group2.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title hr__title">HR</p>
+                <p class="content__text">
+                    После утверждения заявки на нового сотрудника, 
+                    необходимо отправить запрос помощнику HR с детальным 
+                    описанием требований к кандидату, включая должность, 
+                    необходимые квалификации, предполагаемую заработную плату и 
+                    возможность удаленной работы. Если в филиале отсутствует 
+                    HR-специалист, то руководитель отдела на себя берет 
+                    функции по подбору кандидатов. <br /><br />
+                    Поиск подходящих кандидатов может занять от 2х до 4х недель.
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="wrapper">
-        <div class="wrapp__img">
-            <img src="img/Group3.png" alt="">
+        <div class="wrapper">
+            <div class="wrapp__img">
+                <img src="img/Group3.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title">Собеседование</p>
+                <p class="content__text">
+                    На этом этапе необходимо провести собеседования с кандидатами на 
+                    должность, подготовившись к ним заранее и изучив соответствующие 
+                    анкеты от HR. <br /><br />
+                    Собеседование может провести руководитель отдела или HR-специалист. 
+                </p>
+            </div>
         </div>
-        <div class="wrapp__content">
-            <p class="content__title">Собеседование</p>
-            <p class="content__text">
-                На этом этапе необходимо провести собеседования с кандидатами на 
-                должность, подготовившись к ним заранее и изучив соответствующие 
-                анкеты от HR. <br /><br />
-                Собеседование может провести руководитель отдела или HR-специалист. 
-            </p>
+        <div class="wrapper">
+            <div class="wrapp__img">
+                <img src="img/Group4.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title office">Согласование с рук. офиса</p>
+                <p class="content__text">
+                    Если кандидат подходит на должность, то ему также 
+                    необходимо пройти собеседование с руководителем офиса.
+                    Для этого нужно заранее предоставить анкету кандидата 
+                    и организовать собеседование в удобное для обеих сторон время. 
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="wrapper">
-        <div class="wrapp__img">
-            <img src="img/Group4.png" alt="">
+        <div class="wrapper">
+            <div class="wrapp__img">
+                <img src="img/Group5.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title">Договор NDA</p>
+                <p class="content__text">
+                    После того, как кандидат был одобрен руководителем 
+                    офиса, ему необходимо подписать NDA (договор о 
+                    неразглашении информации), который обеспечивает 
+                    конфиденциальность информации компании и ее сохранность. 
+                </p>
+            </div>
         </div>
-        <div class="wrapp__content">
-            <p class="content__title office">Согласование с рук. офиса</p>
-            <p class="content__text">
-                Если кандидат подходит на должность, то ему также 
-                необходимо пройти собеседование с руководителем офиса.
-                Для этого нужно заранее предоставить анкету кандидата 
-                и организовать собеседование в удобное для обеих сторон время. 
-            </p>
-        </div>
-    </div>
-    <div class="wrapper">
-        <div class="wrapp__img">
-            <img src="img/Group5.png" alt="">
-        </div>
-        <div class="wrapp__content">
-            <p class="content__title">Договор NDA</p>
-            <p class="content__text">
-                После того, как кандидат был одобрен руководителем 
-                офиса, ему необходимо подписать NDA (договор о 
-                неразглашении информации), который обеспечивает 
-                конфиденциальность информации компании и ее сохранность. 
-            </p>
-        </div>
-    </div>
-    <div class="wrapper">
-        <div class="wrapp__img">
-            <img src="img/Group6.png" alt="">
-        </div>
-        <div class="wrapp__content">
-            <p class="content__title work">Подготовка рабочего места</p>
-            <p class="content__text">
-                На заключительном этапе необходимо подготовиться к 
-                приему нового сотрудника, включая его регистрацию 
-                в STAFF, организацию рабочего места и ознакомление 
-                его с правилами работы и поведения в офисе.
-            </p>
-            <div class="wrapp__work-link">
-                <a href="#" class="link__work">Регистрация сотрудника в STAFF</a>
-                <div class="hr__work-img">
-                    <img src="img/staff_reg.png" alt=""> 
+        <div class="wrapper">
+            <div class="wrapp__img">
+                <img src="img/Group6.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title work">Подготовка рабочего места</p>
+                <p class="content__text">
+                    На заключительном этапе необходимо подготовиться к 
+                    приему нового сотрудника, включая его регистрацию 
+                    в STAFF, организацию рабочего места и ознакомление 
+                    его с правилами работы и поведения в офисе.
+                </p>
+                <div class="wrapp__work-link">
+                    <a href="#" class="link__work">Регистрация сотрудника в STAFF</a>
+                    <div class="hr__work-img">
+                        <img src="img/staff_reg.png" alt=""> 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="mega__logo">
-    <div class="mega__img">
-        <img src="img/mg_logo.png" alt="">
-    </div>
-    <p class="mega__text">В случае возникновения вопросов 
-        обращайтесь к Цхай Елене
-    </p>
+    <div class="mega__logo">
+        <div class="logo__wrapp">
+            <div class="mega__img">
+                <img src="img/mg_logo.png" alt="">
+            </div>
+            <p class="mega__text">В случае возникновения вопросов 
+                обращайтесь к Цхай Елене
+            </p> 
+        </div>
+    </div> 
 </div>
 
+<div class="recruit__wrapp lim__wrapp">
+    <div class="title__wrapp">
+        <p class="title">Ограничение доступа к STAFF (бессрочный отпуск )</p>
+        <p class="title__descriptor">Длительный отпуск без сохранения 
+            заработной платы от 2-ух недель, такие как:
+            Декрет, Учеба, Переезд, производственная необходимость
+            Инструкция для руководителя отдела
+        </p>
+    </div>
+    <div class="content__wrapp content__wrapp-second">
+        <div class="overlay__g-second">
+            <img src="img/Vector-gr2.svg" alt="">
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group1.2.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr_second">Добровольный</p>
+                <p class="content__text">
+                    Когда сотрудник обращается к руководителю отдела с 
+                    просьбой предоставить длительный отпуск без содержания 
+                    согласно причинам, указанным в описании
+                </p>
+                <p class="content__title gr_second">Принудительный</p>
+                <p class="content__text">
+                    Руководитель отдела в праве отправить сотрудника в 
+                    длительный отпуск без содержания в связи с 
+                    производственной необходимостью
+                </p>
+            </div>
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group2.2.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title hr__title gr_second gr_second-title">Оформление заявки</p>
+                <p class="content__text">
+                    После того как вы утвердили с сорудником дату и 
+                    продолжительность БС необходимо оформить 
+                    соответствующую заявку в STAFF
+                </p>
+            </div>
+            <div class="wrapp__link-hr hr__group-second">
+                <a href="#" class="link__staff link__group-second">Заявка в STAFF</a>
+                <div class="hr">
+                    <img src="img/qr_lim.png" alt="">
+                </div>
+            </div>  
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group3.2.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr_second">Собеседование</p>
+                <p class="content__text">
+                    На этом этапе необходимо провести собеседования с кандидатами на 
+                    должность, подготовившись к ним заранее и изучив соответствующие 
+                    анкеты от HR. <br /><br />
+                    Собеседование может провести руководитель отдела или HR-специалист. 
+                </p>
+            </div>
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group4.2.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title office gr_second gr__office-before">Согласование с рук. офиса</p>
+                <p class="content__text">
+                    Если кандидат подходит на должность, то ему также 
+                    необходимо пройти собеседование с руководителем офиса.
+                    Для этого нужно заранее предоставить анкету кандидата 
+                    и организовать собеседование в удобное для обеих сторон время. 
+                </p>
+            </div>
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group5.2.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr_second">Договор NDA</p>
+                <p class="content__text">
+                    После того, как кандидат был одобрен руководителем 
+                    офиса, ему необходимо подписать NDA (договор о 
+                    неразглашении информации), который обеспечивает 
+                    конфиденциальность информации компании и ее сохранность. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="mega__logo">
+        <div class="logo__wrapp">
+            <div class="mega__img">
+                <img src="img/mg_logo.png" alt="">
+            </div>
+            <p class="mega__text">В случае возникновения вопросов 
+                обращайтесь к Цхай Елене
+            </p> 
+        </div>
+    </div> 
+</div>
+
+<div class="recruit__wrapp del__wrapp">
+    <div class="title__wrapp">
+        <p class="title">Удаление из STAFF (увольнение)</p>
+        <p class="title__descriptor">Инструкция для руководителя отдела</p>
+    </div>
+    <div class="content__wrapp content__wrapp-second">
+        <div class="overlay__g-second">
+            <img src="img/Vector-gr2.svg" alt="">
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group1.3.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr__third">Принятия решения</p>
+                <ul class="content__ul">
+                        <li class="content__li">Увольнение сотрудника за нарушения</li>
+                        <li class="content__li">Либо если сотрудник сам выразил желание уволиться.</li>
+                    Необходимо согласовать решение с вышестоящим руководителем департамента.
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group2.3.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr__third">Подготовка</p>
+                <p class="content__text">
+                    Если увольнение неизбежно , то нужно проинформировать сотрудника о всех 
+                    необходимых процедурах в обходном листе <br /><br />
+                    А именно: оформление заявления об увольнении, сроках и 
+                    порядке выплаты всех возможных денежных компенсаций и 
+                    отработки 2 недель (решает руководитель).  
+                </p>
+            </div>
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group3.3.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr__third">Оповещение</p>
+                <p class="content__text">
+                    Руководителю сотрудника необходимо предупредить лицо выдающее  зарплату, 
+                    чтобы он потребовал заполненный обходной лист.<br /><br />
+                    <span class="attention">Внимание!</span>
+                    <br />
+                    Оформить обходной лист обязательно   нужно перед получением зарплаты.                      
+                </p>
+            </div>
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group4.3.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr__third gr__office-before">Обходной лист</p>
+                <p class="content__text">
+                    Обходной лист необходимо распечатать и дать сотруднику.<br /><br />
+                    Сотрудник должен получить подпись от системного администратора, 
+                    бухгалтера и руководителя отдела, а затем передается руководству 
+                    (руководитель филиала). <br /><br />
+                    Подписанный лист гарантирует, что все условия увольнения сотрудником были выполнены.
+                </p>
+                
+                <div class="wrapp__work-link">
+                    <a href="#" class="link__work fired__link">Ссылка на образец</a>
+                    <div class="hr__work-img">
+                        <img src="img/qr_del.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper wrapper__gr-second">
+            <div class="wrapp__img">
+                <img src="img/Group5.3.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr__third">Финальное интервью</p>
+                <p class="content__text">
+                    Необходимо провести заключительное интервью с сотрудником, 
+                    который увольняется. Главная цель этого интервью - получить 
+                    честные ответы о том, что понравилось и не понравилось в работе.<br /><br />
+                    Важно, чтобы увольняющийся сотрудник сохранял положительное впечатление о компании. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="mega__logo">
+        <div class="logo__wrapp">
+            <div class="mega__img">
+                <img src="img/mg_logo.png" alt="">
+            </div>
+            <p class="mega__text">В случае возникновения вопросов 
+                обращайтесь к Цхай Елене
+            </p> 
+        </div>
+    </div> 
+</div>
+
+
+<div class="recruit__wrapp next__wrapp">
+    <div class="title__wrapp">
+        <p class="title">Перевод сотрудника в другой отдел</p>
+        <p class="title__descriptor">Инструкция для руководителя отдела</p>
+    </div>
+    <div class="content__wrapp content__wrapp-four">
+        <div class="overlay__gr-four">
+            <img src="img/gr-four.svg" alt="">
+        </div>
+        <div class="wrapper wrapper__four">
+            <div class="wrapp__img">
+                <img src="img/Group6.1.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr__transfer">Обсуждение</p>
+                <p class="content__text">
+                    Если возникает вопрос о переводе сотрудника в другой отдел, 
+                    то в первую очередь необходимо чтобы руководитель принимающего 
+                    отдела обсудил этот вопрос с текущим руководителем сотрудника 
+                    и получил его согласие.<br /><br />
+                    Если текущий руководитель сотрудника отказывается переводить 
+                    его, то все последующие вопросы рассматриваются в рамках их отдела.                     
+                </p>
+            </div>
+        </div>
+        <div class="wrapper wrapper__four">
+            <div class="wrapp__img">
+                <img src="img/Group6.2.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr__transfer">Согласование</p>
+                <p class="content__text">
+                    После получения согласия на перевод сотрудника от 
+                    его руководителя отдела, необходимо обсудить и 
+                    утвердить этот вопрос со свои руководителем департамента.<br /><br />
+                    Если вопрос о переводе сотрудника будет отклонен в вашем 
+                    департаменте, то необходимо сообщить об этом сотруднику 
+                    и его руководителю.                     
+                </p>
+            </div>
+        </div>
+        <div class="wrapper wrapper__four">
+            <div class="wrapp__img">
+                <img src="img/Group6.3.png" alt="">
+            </div>
+            <div class="wrapp__content">
+                <p class="content__title gr__transfer">Оповещение</p>
+                <p class="content__text">
+                    Если вопрос о переводе сотрудника был одобрен на 
+                    первых двух этапах, то можно начинать процесс 
+                    перевода сотрудника в ваш отдел.<br /><br />
+                    А именно актуализация данных в карточке STAFF, данных 
+                    в файле Влада Исхакова в случае если сотрудник 
+                    из Ферганы и в Дискорд.
+                </p>
+                <div class="wrapp__work-link">
+                    <a href="#" class="link__work link__transfer">Ссылка на файл</a>
+                    <div class="hr__work-img">
+                        <img src="img/qr_next.png" alt=""> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="mega__logo">
+        <div class="logo__wrapp">
+            <div class="mega__img">
+                <img src="img/mg_logo.png" alt="">
+            </div>
+            <p class="mega__text">В случае возникновения вопросов 
+                обращайтесь к Цхай Елене
+            </p> 
+        </div>
+    </div> 
+</div>
 
 <script src="js/script.js"></script>
 </body>
