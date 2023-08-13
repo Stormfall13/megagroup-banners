@@ -186,13 +186,7 @@ body {
   display: inline-block;
 }
 
-<<<<<<< HEAD
 .mega__logo-wrapp {
-=======
-.mega__logo {
-  position: relative;
-  z-index: 1;
->>>>>>> 3978c7cf8e57474a5bb4584e05f10c4151fb76ac
   display: flex;
   justify-content: flex-end;
 }
@@ -375,24 +369,6 @@ body {
 
 @media (max-width: 1600px) {
   .img__overlay {
-<<<<<<< HEAD
-=======
-    left: 120px;
-    right: 0;
-    top: 134px;
-    z-index: 1;
-    max-width: 1343px;
-  }
-  .img__overlay img {
-    width: 100%;
-  }
-  .overlay__gr-four {
-    left: 478px;
-  }
-}
-@media (max-width: 1440px) {
-  .img__overlay {
->>>>>>> 3978c7cf8e57474a5bb4584e05f10c4151fb76ac
     display: none;
   }
   .overlay__g-second {
