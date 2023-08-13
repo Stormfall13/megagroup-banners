@@ -80,7 +80,7 @@ body{
     padding: 0 10px;
     box-sizing: border-box;
 }
-.content__wrapp .wrapper:nth-child(even){
+.content__wrapp .wrapper:nth-child(odd){
     margin-top: 135px;
 }
 .img__overlay{
@@ -102,9 +102,7 @@ body{
         object-fit: contain;
     }
 }
-.img__overlay-laptop{
-    display: none;
-}
+
 
 .wrapp__content{
     max-width: 235px;
@@ -189,14 +187,12 @@ body{
         display: inline-block;
     }
 }
-.mega__logo{
-    position: absolute;
-    z-index: 1;
+.mega__logo-wrapp{
     display: flex;
     justify-content: flex-end;
-    padding: 0 67px;
-    bottom: 0;
-    right: 0; 
+}
+.mega__logo{
+    margin: 0 70px 0 0;
     .mega__img{
         max-width: 284px;
         height: auto;
@@ -261,7 +257,6 @@ body{
 }
 .content__wrapp-second{
     max-width: 1570px; 
-    height: 90vh;
 }
 .gr__third{
     color: #8A8A8A;
@@ -295,7 +290,6 @@ body{
 }
 .content__wrapp-four{
     justify-content: center;
-    min-height: 760px;
 }
 .content__wrapp .wrapper__four:nth-child(even){
     margin-top: inherit;
@@ -355,70 +349,29 @@ body{
 
 @media (max-width: 1600px) {
     .img__overlay{
-        left: 120px;
-        right: 0;
-        top: 134px;
-        z-index: 1;
-        max-width: 1343px;
-        img{
-            width: 100%;
-        } 
-    }
-}
-@media (max-width: 1440px) {
-    .img__overlay{
         display: none;
     }
-    .img__overlay-laptop{
-        display: block;
-        position: absolute;
-        left: 137px;
-        right: -9px;
-        top: 117px;
-        z-index: 1;
-        max-width: 1153px; 
-        img{
-            width: 100%;
-        }
-    }
     .overlay__g-second{
-        position: absolute;
-        left: 114px;
-        right: 0;
-        top: 115px;
-        z-index: 1;
-        max-width: 1200px;
-        img{
-            object-fit: contain;
-            width: 100%; 
-        } 
+        display: none;
     }
     .overlay__gr-four{
-        left: 415px; 
+        display: none;
     }
 }
-@media (max-width: 1366px) {
-    .img__overlay-laptop{
-        position: absolute;
-        left: 134px;
-        right: 0;
-        top: 108px;
-        z-index: 1;
-        max-width: 1081px; 
+@media (max-width: 1280px){
+    .content__wrapp{
+        flex-wrap: wrap;
+        justify-content: center;
+        .wrapper{
+            margin-top: 0 !important;
+        }
     }
-    .overlay__g-second{
-        position: absolute;
-        left: 82px;
-        right: 0;
-        top: 115px;
-        z-index: 1;
-        max-width: 1200px;
-        img{
-            object-fit: contain;
-            width: 100%; 
-        } 
+}
+@media (max-width: 991px) {
+    .add__wrapp{
+        margin-top: 115px; 
     }
-    .overlay__gr-four{
-        left: 372px; 
+    .title{
+        font-size: 30px !important;
     }
 }
