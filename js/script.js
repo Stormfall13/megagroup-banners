@@ -58,3 +58,34 @@ function onEntry(entry) {
     for (let elm of elements) {
     observer.observe(elm);
     }
+
+
+
+window.onwheel = (e) => {
+    // console.log(e.deltaY < 0);
+    if(e.deltaY < 0){
+        // console.log('вверх');
+        swipeMenu.style.transform = ''
+        arrowUp.style.transform = ''
+    }else{
+        // console.log('вниз');
+        swipeMenu.style.transform = 'translateY(-100vh)'
+        arrowUp.style.transform = 'translateY(0)'
+    }
+}
+
+const arrowUp = document.querySelector('.arrow__up')
+arrowUp.addEventListener('click', () => {
+    scrollElement()
+    arrowUp.style.transform = ''
+    swipeMenu.style.transform = ''
+    setTimeout(() => {
+        window.scrollTo(0,0)
+    }, 1000)
+    
+})
+function scrollElement(){
+    var element = document.querySelector('.title__main');
+    element.scrollIntoView({behavior: "smooth"});
+}
+

@@ -312,6 +312,7 @@ body{
     right: 0;
     top: 0;
     z-index: 4;
+    transition: 0.8s;
     border-radius: 0px 0px 0px 30px;
     border-bottom: 10px solid #537AF7;
     border-left: 10px solid #537AF7;
@@ -344,6 +345,18 @@ body{
 }
 .next{
     background: #23BA46;
+}
+
+.arrow__up{
+    cursor: pointer;
+    position: fixed;
+    right: 5px;
+    bottom: 50px;
+    background: rgba(44, 44, 44, 0.4);
+    border-radius: 2px;
+    transition: 0.8s;
+    transform: translateY(100vh);
+    z-index: 3;
 }
 
 
