@@ -5,10 +5,13 @@ swipeAdd.addEventListener('click', () => {
     scrollElement1();
     swipeMenu.style.borderBottom = ''
     swipeMenu.style.borderLeft = ''
+
+    
 })
 function scrollElement1(){
     var wrappAdd = document.querySelector('.add__wrapp');
     wrappAdd.scrollIntoView({behavior: "smooth"});
+    const arrowUp = document.querySelector('.arrow__up')
 }
 
 const swipeLim = document.querySelector('.swipe__lim')
@@ -44,6 +47,18 @@ function scrollElement4(){
     wrappAdd.scrollIntoView({behavior: "smooth"});
 }
 
+const swiperWrapper = document.querySelectorAll('.swipe__wrapper')
+for (let swiperWrappers of swiperWrapper){
+    swiperWrappers.addEventListener('click', () => {
+        arrowUp.style.transform = 'translateY(0px)'
+    })
+}
+swiperWrapper[0].addEventListener('click', () => {
+    arrowUp.style.transform = ''
+    setTimeout(() => {
+        window.scrollTo(0,0)
+    }, 1000)
+})
 
 function onEntry(entry) {
     entry.forEach(change => {
@@ -84,6 +99,7 @@ arrowUp.addEventListener('click', () => {
     }, 1000)
     
 })
+
 function scrollElement(){
     var element = document.querySelector('.title__main');
     element.scrollIntoView({behavior: "smooth"});
